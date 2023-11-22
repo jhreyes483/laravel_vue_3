@@ -1,8 +1,11 @@
-https://www.youtube.com/watch?v=tIFkbdgdhKk
+
 
 "Crear proyecto 
 composer create-project laravel/laravel nameproyect"
 
+LOGIN
+------------------------------------------------------
+https://www.youtube.com/watch?v=tIFkbdgdhKk
 https://github.com/laravel/ui
 ->"instalacion de libreria laravel + vue login
 composer require laravel/ui"
@@ -16,3 +19,19 @@ npm run dev"
 ->"configuracion de migraciones Schema 
 crecion de DB 
 php artisan migrate"
+------------------------------------------------------
+
+
+LARAVEL PERMISSIONS
+----------------------------------------
+https://www.youtube.com/watch?v=tIFkbdgdhKk
+->"Instalacion de libreria spatie
+
+composer require laravel/breeze --dev
+composer require spatie/laravel-permission
+php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider
+php artisan optimize:clear
+php artisan config:clear
+php artisan migrate"
+
+"
