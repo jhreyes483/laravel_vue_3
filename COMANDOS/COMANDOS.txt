@@ -4,9 +4,15 @@ https://www.youtube.com/watch?v=tIFkbdgdhKk
 composer create-project laravel/laravel nameproyect"
 
 https://github.com/laravel/ui
-"instalacion de libreria laravel + vue login
+->"instalacion de libreria laravel + vue login
 composer require laravel/ui"
 
-"generar autenticacion
+->"generar autenticacion
 php artisan ui vue --auth
-npm install && npm run dev"
+npm i
+npm run dev"
+
+
+->"configuracion de migraciones Schema 
+crecion de DB 
+php artisan migrate"
