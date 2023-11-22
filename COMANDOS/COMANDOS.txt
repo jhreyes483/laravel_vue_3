@@ -34,4 +34,7 @@ php artisan optimize:clear
 php artisan config:clear
 php artisan migrate"
 
-"
+-> "creacion de modelo roles"
+-> "creacion de modelo permissions"
+-> "creacion de post model php artisan make:model Post --migratio"
+->"configuracion de user HasRoles"
