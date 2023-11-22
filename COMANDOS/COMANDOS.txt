@@ -6,3 +6,7 @@ composer create-project laravel/laravel nameproyect"
 https://github.com/laravel/ui
 "instalacion de libreria laravel + vue login
 composer require laravel/ui"
+
+"generar autenticacion
+php artisan ui vue --auth
+npm install && npm run dev"
