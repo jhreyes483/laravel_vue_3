@@ -38,3 +38,9 @@ php artisan migrate"
 -> "creacion de modelo permissions"
 -> "creacion de post model php artisan make:model Post --migratio"
 ->"configuracion de user HasRoles"
+
+
+https://www.youtube.com/watch?v=3c_Ri_h0ecY
+->"creacion de migracion tabla roles
+ php artisan make:migration create_roles 
+"
